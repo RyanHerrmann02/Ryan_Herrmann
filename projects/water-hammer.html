@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Water Hammer CFD Study | Ryan Herrmann</title><link rel="stylesheet" href="../style.css"></head><body>
+<header class="site"><div class="wrap"><a class="brand" href="../index.html">Ryan Herrmann</a>
+<nav><a href="../index.html#projects">Projects</a><a href="../index.html#about">About</a><a href="../index.html#contact">Contact</a></nav></div></header>
+<main class="wrap">
+<div class="tags">CFD &middot; Python &middot; DOLFINx &middot; FEA &middot; Jan&ndash;May 2026</div>
+<h1>Water Hammer CFD Study</h1>
+<p class="lead">A fluid-structure interaction study of pressure waves in pipes, built to capture the Joukowsky pressure rise during sudden valve closure.</p>
+<h2>What I built</h2>
+<ul>
+<li>A 2D axisymmetric monolithic FSI solver in DOLFINx using Nitsche interface coupling, k-&epsilon; turbulence closure, and a barotropic equation of state.</li>
+<li>A benchmark of Crank-Nicolson versus BDF2 time integration across 9 pipe material and working fluid combinations.</li>
+<li>Validation of simulated peak pressures against analytical Joukowsky theory.</li>
+</ul>
+<h2>Outcome</h2>
+<p>Co-authored a technical report on FSI discretization limits, scheme-dependent amplitude behavior, and compliant-pipe breakdown regimes for steel, copper, and HDPE pipes.</p>
+<figure><span class="todo">TODO</span> Add a figure: <code>&lt;img src="../images/water-hammer-pressure.png" alt="Pressure vs time"&gt;</code><figcaption>Caption goes here.</figcaption></figure>
+<a class="btn primary" href="../pdfs/water-hammer-report.pdf">Full report (PDF)</a>
+</main><footer><div class="wrap">&copy; 2026 Ryan Herrmann &middot; <a href="../index.html">Back to portfolio</a></div></footer></body></html>
