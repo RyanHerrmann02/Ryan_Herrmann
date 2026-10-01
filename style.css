@@ -25,3 +25,20 @@ figure img{max-width:100%;border-radius:8px;border:1px solid var(--line)}
 figcaption{color:var(--muted);font-size:.9rem}
 .todo{background:#fff6d6;color:#5c4a00;padding:2px 6px;border-radius:4px;font-size:.9em}
 footer{border-top:1px solid var(--line);margin-top:64px;padding:24px 0;color:var(--muted);font:14px system-ui,sans-serif}
+.hero{
+  background-color:#243447; /* shown if the photo is missing */
+  background-image:linear-gradient(rgba(10,15,20,.55),rgba(10,15,20,.55)),url("images/background.jpg");
+  background-size:cover;
+  background-position:center;
+  color:#fff;
+  padding:56px 0;
+}
+.hero-inner{display:flex;align-items:center;gap:28px}
+.headshot{width:140px;height:140px;border-radius:50%;object-fit:cover;border:3px solid #fff;flex-shrink:0}
+.hero h1{margin:0 0 8px;color:#fff}
+.hero .lead{color:#e8ecef;margin:0 0 12px}
+.hero .btn{border-color:#fff;color:#fff}
+.hero .btn.primary{background:#fff;color:#14171a}
+@media(max-width:560px){
+  .hero-inner{flex-direction:column;text-align:center}
+}
